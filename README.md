@@ -1,7 +1,8 @@
 # golang_study
 
 Goの勉強メモ。
-https://docs.google.com/presentation/d/1RVx8oeIMAWxbB7ZP2IcgZXnbZokjCmTUca-AbIpORGk/edit?slide=id.g4f417182ce_0_0#slide=id.g4f417182ce_0_0
+- https://docs.google.com/presentation/d/1RVx8oeIMAWxbB7ZP2IcgZXnbZokjCmTUca-AbIpORGk/edit?slide=id.g4f417182ce_0_0#slide=id.g4f417182ce_0_0
+- https://go.dev/tour/
 を参照。
 
 ## Goの誕生

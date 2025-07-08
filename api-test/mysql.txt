@@ -1,0 +1,11 @@
+docker run -d --name go-mysql -e MYSQL_ROOT_PASSWORD=pass \
+  -e MYSQL_DATABASE=gotest -p 3333:3306 mysql:8
+
+CREATE TABLE users (
+  id   INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  age  INT NOT NULL
+);
+
+docker exec -it go-mysql mysql -uroot -p
+mysql -h 127.0.0.1 -P 3333 -uroot -p
